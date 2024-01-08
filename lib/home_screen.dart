@@ -27,6 +27,8 @@ class _HomeScreenState extends State<HomeScreen> {
               )),
           centerTitle: true,
           backgroundColor: defaultColor,
+          automaticallyImplyLeading: false,
+
         ),
         body: SingleChildScrollView(
           child: Padding(
